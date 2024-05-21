@@ -1,0 +1,12 @@
+root@opexwise-dev2:~/bala/api# ls
+airflow           contract_analysis       format_conversion  opexwise              start.sh                 widget
+background.conf   datapipe                layout             opexwise-cron         storyboard               workflow
+background.sh     datawarehouse           manage.py          opexwise.ini          superset
+bot_analysis      db_data                 media              predictive_analysis   swagger
+bot_optimization  dev-docker-compose.yml  mlmodel            README.md             templates
+common            Dockerfile              nginx              requirements.txt      test-docker-compose.yml
+connection        fixtures                nifi               servicenow_dashboard  uipath
+root@opexwise-dev2:~/bala/api# vi dev-docker-compose.yml 
+root@opexwise-dev2:~/bala/api# dockerfile build -t iopexlabs/opexwise:2.23  .
+dockerfile: command not found
+root@opexwise-dev2:~/bala/api# 
